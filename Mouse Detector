@@ -1,0 +1,13 @@
+script.Parent.MouseHoverEnter:Connect(function()
+script.Parent.Parent.Highlight.FillColor = Color3.new(1, 1, 1)
+script.Parent.Parent.Hightlight.Enabled = true
+end)
+script.Parent.MouseHoverLeave:Connect(function()
+script.Parent.Parent.Highlight.FillColor = Color3.new(1, 1, 1)
+script.Parent.Parent.Hightlight.Enabled = false
+end)
+
+script.Parent.MouseClick:Connect(function()
+script.Parent.Parent.Highlight.FillColor = Color3.new(1, 0, 0.0156863)
+script.Parent.Parent.Hightlight.Enabled = true
+end)
